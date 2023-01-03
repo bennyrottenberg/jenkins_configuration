@@ -1,0 +1,12 @@
+Started on Jan 3, 2023, 9:12:58 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision c24d7eeaaae1f4f0e941d3e8a6cda54cf375cf11 (refs/remotes/origin/clean-jenkins)
+The recommended git tool is: git
+Warning: CredentialId "git_token" could not be found.
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git ls-remote -h -- https://github.com/bennyrottenberg/dev-ops-great # timeout=10
+Found 3 remote heads on https://github.com/bennyrottenberg/dev-ops-great
+[poll] Latest remote head revision on refs/heads/clean-jenkins is: c24d7eeaaae1f4f0e941d3e8a6cda54cf375cf11 - already built by 2
+Done. Took 0.65 sec
+No changes
