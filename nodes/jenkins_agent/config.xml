@@ -17,6 +17,6 @@
     <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy"/>
     <tcpNoDelay>true</tcpNoDelay>
   </launcher>
-  <label></label>
+  <label>python_agent</label>
   <nodeProperties/>
 </slave>

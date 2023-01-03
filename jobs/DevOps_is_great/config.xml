@@ -5,13 +5,9 @@
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5"/>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5">
       <jobProperties/>
-      <triggers>
-        <string>hudson.triggers.SCMTrigger</string>
-      </triggers>
+      <triggers/>
       <parameters/>
-      <options>
-        <string>skipDefaultCheckout</string>
-      </options>
+      <options/>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
   </actions>
   <description></description>
@@ -22,10 +18,6 @@
         <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.36.0">
           <spec></spec>
         </com.cloudbees.jenkins.GitHubPushTrigger>
-        <hudson.triggers.SCMTrigger>
-          <spec>* * * * *</spec>
-          <ignorePostCommitHooks>false</ignorePostCommitHooks>
-        </hudson.triggers.SCMTrigger>
       </triggers>
     </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
   </properties>
@@ -46,13 +38,6 @@
       <submoduleCfg class="empty-list"/>
       <extensions>
         <hudson.plugins.git.extensions.impl.WipeWorkspace/>
-        <hudson.plugins.git.extensions.impl.CloneOption>
-          <shallow>true</shallow>
-          <noTags>false</noTags>
-          <reference></reference>
-          <depth>1</depth>
-          <honorRefspec>false</honorRefspec>
-        </hudson.plugins.git.extensions.impl.CloneOption>
       </extensions>
     </scm>
     <scriptPath>Jenkinsfile</scriptPath>
